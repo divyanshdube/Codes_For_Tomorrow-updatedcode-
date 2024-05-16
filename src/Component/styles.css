@@ -1,0 +1,28 @@
+.full-height-container {
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .full-height-row {
+    flex-grow: 1;
+  }
+  
+  .full-height-col {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .vertical-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+  }
+
+  .hover_element:hover{
+background-color: #94E9C5;
+  }
